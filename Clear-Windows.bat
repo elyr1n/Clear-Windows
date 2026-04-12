@@ -27,3 +27,6 @@ del /s /q "C:\Windows\Prefetch"
 :: registry
 reg delete "HKCU\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" /f
 reg add "HKCU\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store" /f
+
+:: windows defender
+del /s /q "C:\ProgramData\Microsoft\Windows Defender\Scans\History"
